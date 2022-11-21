@@ -1,0 +1,375 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.accueil-link
+{
+    color: white;
+}
+.curent-menu
+{
+    background-color: teal;
+}
+
+li{
+    list-style-type: none;
+
+}
+/*------------------------------section1---------------------*/
+.image-container
+{
+width: 100%;
+height: 100vh;
+background-image: url("../Images/back_img/font2copie.jpg");
+background-size: cover;
+display: flex;
+flex-direction: column;
+text-align: center;
+align-items: center;
+justify-content: center;
+
+}
+.image-container h1
+{
+    font-size: 50px;
+}
+.image-container h3
+{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+.shop-button
+{
+    padding: 10px;
+    background: teal;
+    color: white;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.container-menu
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 5px 0px 3px rgba(0, 0, 0,0.5);
+    align-items: center;
+}
+.logo
+{
+    width: 20%;
+}
+.menu
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sous-menu
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.sous-menu a
+{
+    display: inline-block;
+}
+.shop-button:hover
+{
+    color: teal;
+    background: none;
+    border: 1px solid teal;
+    border-radius: 25px;
+}
+/*-------------------------------------section2.0-------------------*/
+.product-section
+{
+    margin: 20px 0px;
+}
+.section-title >span
+{
+height: 5px;
+width: 200px;
+display:inline-block;
+background-color: teal;
+
+}
+.section-title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-title h2
+{
+    margin: 0px 5px;
+}
+.produit-item
+{
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+    margin: 25px;
+    padding: 5px;
+}
+.produit-image
+{
+    width: 90%;
+    position: relative;
+    height: 60%;
+    object-fit: cover;
+}
+.produit-title
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.produit-price
+{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+figcaption
+{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    /*border: 1px solid blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-button.container{
+    padding: 10px;
+    background: teal;
+    color: white;
+    width: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+}
+.produit-item .shop-button
+{
+    font-size: 20px;
+}
+.all-product
+{
+    position: relative;
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.produit-item .shop-button:hover
+{
+    color: yellow;
+    background-color: teal;
+    opacity: 0.80;
+    border-radius: 0px;
+}
+/*----------------------section 3-----------------------*/
+.testimony-item
+{
+    width: 260px;
+    height: 300px;
+    position: relative;
+    /*border: 1px solid green;*/
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    margin: 25px;
+    border-radius: 10px;
+    
+}
+.testimony-text-container
+{
+    height: 50%;
+    width: 90%;
+    position: relative;
+    margin: 0px auto;
+}
+.testimony-user
+{
+    height: 40%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+}
+.testimony-user-logo
+{
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+}
+.testimony-text
+{
+text-align: justify;
+font-size: 18px;
+
+}
+.testimony-user-name
+{
+font-weight: bold;
+}
+.testimony-user-profile
+{
+font-style: italic;
+text-align: center;
+font-weight: bold;
+color: rgb(16, 36, 36);
+}
+.testimony-section
+{
+    padding: 5px;
+    width: 85%;
+    position: relative;
+    margin: 25px auto;
+    display: flex;
+}
+/*---------------------------------section 4------------------------*/
+.newsletter-section
+{
+    position: relative;
+    height: 300px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.newsletter-container
+{
+    position: relative;
+    background-color: teal;
+    width: 80%;
+    height: 40%;
+    margin: 0px auto;
+    
+
+}
+.newsletter-title
+{
+    color: white;
+    font-size: 25px;
+    margin: 25px 0px;
+    text-align: center;
+}
+.newsletter-form
+{
+    position: relative;
+    width: 100%;
+    /*border: 2px;*/
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsletter-form input[type="email"]
+{
+    width: 75%;
+    height: 50%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    text-align: center;
+    /* border-radius: 20%; */
+}
+.newsletter-form input[type="submit"]
+{
+    width: 25%;
+    height: 50px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+}
+.newsletter-form input[type="submit"]:hover{
+    color: yellow;
+}
+
+.newsletter-form input[type="email"]::placeholder{
+    text-align: center;
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px;
+    background-color: black;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;
+
+}
+.copyright
+{
+    font-size: 20px;
+    text-align: center;
+    border-top: 1px solid white;
+    padding: 10px;
+}
+.copyright p{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: yellow;
+
+}
+.coordonne-container p,.link-container p ,.reseau-container p{
+    font-size: 25px;
+    color: yellow;
+}
+footer ul li{
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+footer ul{
+    margin-top: 12px;
+}
+footer ul li a{
+    color: white;
+}
+
